@@ -1,14 +1,12 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  *main - main function
  *
  * Return: return 1 function
  */
-int main(void)
+int  main(void)
 {
-	const char *msg = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	for (int i = 0; msg[i] != '\0'; i++) 
-	{putchar(msg[i]);}
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
-
