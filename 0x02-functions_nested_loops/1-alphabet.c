@@ -4,15 +4,14 @@
  *
  * Return: this will return 0 after a newline
  */
-int main(void)
+void print_alphabet(void)
 {
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar('c');
+		_putchar(c);
 	}
 	_putchar('\n');
-	return (0);
 }
 
