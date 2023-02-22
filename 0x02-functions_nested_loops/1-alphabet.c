@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - this is the _putchar functio
+ * print_alphabet - this is the _putchar function
  *
  * Return: this will return 0 after a newline
  */
