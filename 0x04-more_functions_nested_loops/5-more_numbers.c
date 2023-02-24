@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * void more_numbers(void) - entry point
+ * more_numbers(void) - entry point
  * more_numbers - from 0-12
  *Return: 0
  */
+
 void more_numbers(void)
 {
 	char b, d;
