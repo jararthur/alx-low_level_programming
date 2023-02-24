@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers(void) - entry point
+ * more_numbers - entry point
  * more_numbers - from 0-12
  *Return: 0
  */
