@@ -8,14 +8,16 @@
  */
 void print_number(int n)
 {
-	int a = 98;
-	int b = 402;
-	int c = 1024;
-	int d = 0;
-	int e = -98;
+	unsigned int k = n;
 
-	for (n = 97; n < 102; n++);
+	if (n < 0)
 	{
-		_put
-	return (0);
+		n *= -1;
+		k = n;
+		_putchar('-');
+	}
+	k /= 10;
+	if (k != 0)
+		print_number(k);
+	_putchar((unsigned int) n % 10 + '0');
 }
