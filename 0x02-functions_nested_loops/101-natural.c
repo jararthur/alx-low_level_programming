@@ -5,22 +5,14 @@
  */
 int main(void)
 {
-	int i = 0;
-	long j = 1, k = 2;
+	int i, s = 0;
 
-	while (i < 50)
+	for (i = 0; i < 1024; i++)
 	{
-		if (i == 0)
-			printf("%ld", j);
-		else if	(i == 1)
-			printf(", %ld", k);
-		else
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			k += j;
-			j = k - j;
-			printf(", %ld", k);
+			s += i;
 		}
-		++i;
 	}
 	printf("\n");
 	return (0);
